@@ -1,7 +1,7 @@
 from ClassDescriptions.Character import *
 
 
-class Alien(Character):
+class Cowboy(Character):
     def __init__(self, name, health, damage):
         self.name = name
         self.HP = health

@@ -1,5 +1,8 @@
-from ClassDescriptions.Player import *
 from ClassDescriptions.Alien import *
+from ClassDescriptions.Cowboy import *
 
-Player1 = Player()
-Alien1 = Alien()
+characters = [Alien('Fred', 100, 10), Cowboy(name='Roy')]
+
+for i in range(3):
+    for character in characters:
+        character.turn()
